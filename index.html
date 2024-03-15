@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>The quiz</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- Menu -->
+        <div class="app" v-show="showMain">
+            <div class="app__header">
+                <img src="img/logo.png" class="app__logo">
+            </div>
+            <div class="app__body">
+                <div class="app__body__content">
+                    <h1 class="app__body-title">Go to quiz</h1>
+                    <p class="app__body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio earum qui vero. Quam, animi eaque? Eius molestiae id ut cumque.</p>
+                </div>
+                <button class="app__btn" @click="goToQuestions">
+                    <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                    <div class="app__btn-text">Start quiz</div>
+                </button>
+            </div>
+        </div>
+
+
+        <!-- Вопросы -->
+            <div class="app app__question" v-show="showQuestions">
+                <div class="app__header">
+                    <div class="app__header-inner">
+                        <div class="app__count"># {{ number+1 }}</div>
+                        <div class="app__text">{{ questions[number][0] }}</div>
+                    </div>
+                    <div class="app__body">
+                        <button class="app__btn"
+                                v-for="(answer, i) in questions[number][1]" 
+                                @click="nextQuestions(questions[number][2][i])">
+                            <div class="app__btn-text">Next</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+    <script src="js/vue.js"></script>
+    <script src="js/const.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
