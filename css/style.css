@@ -23,6 +23,7 @@ i.fa {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 /* Весь экран приложения: во всю высоту для любого экрана, flex, выравнивание в столбик, overflow: hidden - скрывает не умещающиеся элементы */
