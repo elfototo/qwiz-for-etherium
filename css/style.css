@@ -35,7 +35,7 @@ i.fa {
 }
 /* header: установим черный цвет с прозрачностью 0,5, добавим границу внизу, отступы и выравним в столбец*/
 .app__header {  
-    min-height: 247px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,7 +105,7 @@ i.fa {
         align-content: center
     }
     .app__logo {
-        padding-top: 20px;
+        padding-top: 10px;
         display: block;
         max-width: 40%;
         margin: 0 auto;
