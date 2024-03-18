@@ -107,14 +107,14 @@ i.fa {
 }
 @media screen and (max-width:700px) {
     .app__logo {
-        max-width: 400px;
+        max-width: 200px;
     }
 }
-@media screen and (max-width:500px) {
+/* @media screen and (max-width:500px) {
     .app__logo {
-        max-width: 250px;
+        max-width: 200px;
     }
-}
+} */
     
 
 /* Вопросы */
