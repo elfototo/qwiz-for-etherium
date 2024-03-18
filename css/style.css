@@ -11,6 +11,7 @@
 /* Ставим шрифт по умолчанию */
 body {
     font-family: "Lato-Regular", sans-serif;
+    overflow: hidden;
 }
 /* размеры и отступы иконок в кнопках */
 i.fa {
@@ -23,6 +24,7 @@ i.fa {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     overflow: hidden;
 }
 
@@ -35,18 +37,23 @@ i.fa {
 }
 /* header: установим черный цвет с прозрачностью 0,5, добавим границу внизу, отступы и выравним в столбец*/
 .app__header {  
-    min-height: 100px;
+    max-width: 600px;
+    width: 100%;
+    /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 0 10px; 
 }
 /* логотип в header */
 .app__logo {
+    max-width: 400px;
     padding-top: 20px;
     display: block;
-    max-width: 400px;
-    margin: 0 auto;
+    /* max-width: 100%; */
+    height: auto;
+    /* margin: 0 auto; */
 }
 /* Тело приложения. overflow: auto - для необходимого появления прокрутки*/
 .app__body {
@@ -104,14 +111,16 @@ i.fa {
         flex-wrap: wrap;
         align-content: center
     }
-    .app__logo {
-        padding-top: 10px;
-        display: block;
-        max-height: 100%;
-        margin: 0 auto;
-    }
+    /* .app__logo {
+        max-height: 70%;
+    } */
     
 } 
+@media screen and (max-width: 768px) {
+    .app__logo {
+        max-width: 80%; /* Например, на мобильных устройствах ширина может быть 80% от родительского элемента */
+    }
+}
 
 /* Вопросы */
 .app__question .app__text {
