@@ -30,7 +30,7 @@ i.fa {
     height: 100vh;
     display: flex;
     justify-content: center;
-    overflow: auto;
+    overflow: hidden;
 }
 /* header: установим черный цвет с прозрачностью 0,5, добавим границу внизу, отступы и выравним в столбец*/
 .app__header {  
@@ -104,18 +104,7 @@ i.fa {
         align-content: center
     }
     
-}
-/* @media screen and (max-width:900px) {
-    .app__logo {
-        max-height: 100%;
-    }
-} */
-/* @media screen and (max-width:500px) {
-    .app__logo {
-        max-width: 200px;
-    }
-} */
-    
+} 
 
 /* Вопросы */
 .app__question .app__text {
