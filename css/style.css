@@ -112,7 +112,7 @@ i.fa {
 }
 @media screen and (max-width:400px) {
     .app__logo {
-        max-width: 200px;
+        max-width: 150px;
     }
 }
     
