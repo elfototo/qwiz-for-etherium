@@ -44,7 +44,7 @@ i.fa {
 .app__logo {
     padding-top: 20px;
     display: block;
-    max-width: 500px;
+    max-height: 500px;
     margin: 0 auto;
 }
 /* Тело приложения. overflow: auto - для необходимого появления прокрутки*/
@@ -105,11 +105,11 @@ i.fa {
     }
     
 }
-@media screen and (max-width:900px) {
+/* @media screen and (max-width:900px) {
     .app__logo {
-        max-height: 400px;
+        max-height: 100%;
     }
-}
+} */
 /* @media screen and (max-width:500px) {
     .app__logo {
         max-width: 200px;
