@@ -64,7 +64,8 @@ i.fa {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    overflow: auto;
+    overflow: hidden;
+    margin-bottom: 50px;
 }
 /* Свойста кнопок. отступы, выравниванием по вертикали и по горизонтали по центру, 
 ставим ширину и мин. высоту, цвет кнопки и тень кнопки: box-shadow */
@@ -92,7 +93,7 @@ i.fa {
 
 .app__body-title {
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 .app__body-text {
