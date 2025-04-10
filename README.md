@@ -3,6 +3,9 @@
 ![App Screenshot](./assets/screen_main_page.png)  
 
 <p align="center">
+  <a href="https://elfototo.github.io/qwiz-for-etherium/" target="_blank">
+    <img src="https://img.shields.io/badge/Visit%20Live%20Site-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Site">
+  </a>
   <a href="https://github.com/elfototo/qwiz-for-etherium" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
