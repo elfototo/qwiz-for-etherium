@@ -25,7 +25,6 @@
     - [Steps to get started](#steps-to-get-started)
   - [💡 Usage](#-usage)
   - [🌐 Live Demo](#-live-demo)
-  - [📸 Screenshots](#-screenshots)
 
 ---
 
@@ -104,7 +103,3 @@ Once the application is running, the user can follow these steps:
 You can take the quiz directly online on [GitHub Pages](https://elfototo.github.io/qwiz-for-etherium/).
 
 ---
-
-## 📸 Screenshots
-
-![Main page](./assets/screen_main_page.png)
