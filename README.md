@@ -1,6 +1,6 @@
 # 🧠 Qwiz for Ethereum
 
-![App Screenshot](./assets/screen_main_page.png)  
+![App Screenshot](./asset/screen_main_page.png)  
 
 <p align="center">
   <a href="https://elfototo.github.io/qwiz-for-etherium/" target="_blank">
